@@ -1,0 +1,14 @@
+<Project>
+    <ItemGroup>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-59j7-ghrg-fj52" /> 
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-7wh2-wxc7-9ph5"/>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-m5vv-6r4h-3vj9"/>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-jx4p-m4wm-vvjg"/>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-x674-v45j-fwxw"/>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-ph3v-2hq5-5qfq"/>
+        <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-rf39-3f98-xr7r"/>
+    </ItemGroup>
+    <PropertyGroup>
+        <RunSettingsFilePath>$(MSBuildThisFileDirectory)\.runsettings</RunSettingsFilePath>
+    </PropertyGroup>
+</Project>

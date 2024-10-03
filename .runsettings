@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <RunConfiguration>
+        <TargetFrameworkVersion>net48</TargetFrameworkVersion>
+        <MaxCpuCount>4</MaxCpuCount>
+        <TestCaseFilter>(TestCategory = Unit) &amp; (TestCategory != Performance)</TestCaseFilter>
+        </RunConfiguration>
+    <NUnit>
+        <StopOnError>True</StopOnError>
+        <SkipNonTestAssemblies>True</SkipNonTestAssemblies>
+    </NUnit>
+    <LoggerRunSettings>
+        <Loggers>
+            <Logger friendlyName="console" enabled="True">
+                <Configuration>
+                    <Verbosity>normal</Verbosity>
+                </Configuration>
+            </Logger>
+        </Loggers>
+      </LoggerRunSettings>
+</RunSettings>
